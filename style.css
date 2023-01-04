@@ -86,16 +86,9 @@ nav button {
     color: #757575;
     margin-bottom: 30px;
 }
-.btn-primary{
 
-    background-color: #FD6E0A;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 25px;
-    padding: 18px 36px;
-    margin-right: 20px;;
-}
+
+
 
 /* about */
 main
@@ -186,6 +179,7 @@ margin-bottom: 100px;;
 }
 .resumemain{
  display: flex;
+ margin-top: 90px;
 }
 
 .resumeA{
@@ -224,11 +218,79 @@ margin-bottom: 15px;
 .resumeAsec {
     padding-right: 100px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #d5d5d5;
+  
     margin-right: 50px;
 }
 .resumeBsec {
     padding-right: 10px;
    
     padding-bottom: 10px;
+}
+.btn-primary-resume{
+
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 18px 36px;
+    margin-top: 20px;
+    
+}
+.btnresume{
+    text-align: center;
+
+}
+
+/* footer */
+
+
+footer{
+
+  padding: 5% 2%;
+  background-color: #FFF8F3;
+
+}
+
+.footermain{
+
+ width: 1200px;
+ margin: auto;
+ display: flex;
+}
+
+
+.fr{
+  width: 50%;;
+}
+
+    .fr p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6rem;
+        margin: 27px 0px;
+        color: #474747;
+    }
+    .fr img {
+        margin-right: 20px;
+        
+      
+    }
+.fl{
+    width: 50%;;
+
+}
+.contactform{
+    margin-top: 30px;;
+}
+.contactform input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    width: 90%;
+    padding: 18px 32px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #757575;
+
 }
