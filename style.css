@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 10%;
+    padding-top: 2%;
+}
+
+.nav-title {
+
+    font-size: 45px;
+    color: #000;
+
+
+}
+
+ul li {
+
+    list-style: none;
+    font-size: 25px;
+    color: #474747;
+    padding: 0px 25px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav button {
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 18px 36px;
+}
+
+
+
+.text-primary {
+
+    color: #FD6E0A;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png') , url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+   
+}
+
+/* banner css */
+
+.banner{
+    display: flex;
+   
+    align-items: center;
+    width: 1200px;
+    margin:auto;
+}
+.banner-h {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 700;
+    line-height: 61px;
+}
+.banner-t {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 115px;
+}
+.banner-st {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.btn-primary{
+
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 18px 36px;
+    margin-right: 20px;;
+}
+
+/* about */
+main
+{
+    width: 1200px;
+    margin: auto;
+}
+.about {
+   
+    text-align: center;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 95px 260px;
+    margin-top: 150px;
+}
+.ab-h {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+.ab-p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 1.6rem;
+    margin-bottom: 40px;;
+}
+.aboutcontainer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.ait {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.aip {
+    font-size: 20px;
+    font-weight: 700;
+}
